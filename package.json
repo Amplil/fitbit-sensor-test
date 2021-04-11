@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "ca6626d9-6599-4a91-af70-423b6dbc5cfb",
+    "appType": "app",
+    "appDisplayName": "sensors_template_test",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "sensors_template_test"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
